@@ -1,0 +1,40 @@
+/* Base font for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Light theme styles */
+  body.light {
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  /* Dark theme styles */
+  body.dark {
+    background-color: #343a40;
+    color: #f8f9fa;
+  }
+  
+  /* Styles for the stopwatch title */
+  h1 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Styles for the timer display */
+  h2 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  /* Button font styling */
+  button {
+    font-weight: bold;
+  }
+  
+  /* Styles for lap list items to wrap long content */
+  .list-group-item {
+    word-wrap: break-word;
+  }
+  
